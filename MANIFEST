@@ -1,0 +1,6 @@
+lib/Net/NIS/Netgroup.pm		Perl interface to the package
+Netgroup.xs			Perl extension
+t/00-load.t			Basic tests
+Makefile.PL			MakeMaker make file
+MANIFEST			This list of files
+README				Pseudo-Readme
