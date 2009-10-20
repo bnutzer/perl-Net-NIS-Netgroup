@@ -1,4 +1,4 @@
-# $Id: Netgroup.pm,v 1.1 2009/06/09 14:31:58 bastian Exp $
+# $Id: Netgroup.pm,v 1.2 2009/10/20 07:34:57 bastian Exp $
 # Copyright (c) 2007 Collax GmbH
 package Net::NIS::Netgroup;
 
@@ -33,6 +33,17 @@ bootstrap Net::NIS::Netgroup;
  setdomainname("newdom.com");
 
  printf("Is user in group? %d\n", innetgr('netgroup', 'host', 'user', 'domain'));
+
+=head1 DESCRIPTION
+
+Detailed information about the three supplied functions getgroupname,
+setdomainname, and innetgr can be found on the man pages of the respective
+glibc functions.
+
+innetgr will happily take "undef" for one or more of its arguments, meaning
+the same as a NULL pointer in the C equivalent.
+
+All three functions are exported per default.
 
 =cut
 
