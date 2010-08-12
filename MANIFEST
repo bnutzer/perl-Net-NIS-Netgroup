@@ -5,3 +5,4 @@ t/01-call.t			More tests
 Makefile.PL			MakeMaker make file
 MANIFEST			This list of files
 README				Pseudo-Readme
+ChangeLog			Change log

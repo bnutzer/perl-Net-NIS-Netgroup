@@ -1,4 +1,4 @@
-# $Id: Netgroup.pm,v 1.2 2009/10/20 07:34:57 bastian Exp $
+# $Id: Netgroup.pm,v 1.3 2010/08/12 09:44:22 bastian Exp $
 # Copyright (c) 2007 Collax GmbH
 package Net::NIS::Netgroup;
 
@@ -11,7 +11,7 @@ require DynaLoader;
 our @ISA = qw(Exporter DynaLoader);
 our @EXPORT = qw ( getdomainname setdomainname innetgr );
 
-our $VERSION = "1.0";
+our $VERSION = "1.0.1";
 
 =head1 NAME
 
