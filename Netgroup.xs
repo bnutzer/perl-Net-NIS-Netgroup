@@ -1,7 +1,7 @@
 /*
- * $Id: Netgroup.xs,v 1.2 2010/08/12 14:06:14 bastian Exp $
+ * $Id: Netgroup.xs,v 1.3 2010/08/12 14:10:24 bastian Exp $
  *
- * Copyright (C) 2009 Collax GmbH
+ * Copyright (C) 2009, 2010 Collax GmbH
  *                    (Bastian Friedrich <bastian.friedrich@collax.com>)
  */
 
